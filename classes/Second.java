@@ -1,3 +1,5 @@
+package classes;
+
 public class Second {
 
   public static void main(String[] args) {
@@ -10,7 +12,9 @@ public class Second {
     System.out.println(myObj.x);
     System.out.println(myObjAlso.x);
     System.out.println(myObj.pi); // Set as final (constant) in Main.java
+    // Static methods can be called without creating objects
     System.out.println(Main.addTwoNumbers(5, 3));
+    // Public methods must be called by creating an object of the class
     myObj.myPublicMethod();
   }
 }

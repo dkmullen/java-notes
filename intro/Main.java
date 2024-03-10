@@ -13,7 +13,7 @@ public class Main {
     // char can also take a unicode value, like char letter = '\u0044', or an ASCII value, like char letter = 68;
     // int and double are preferred for numbers, though the others can be useful for memory management
 
-    float num = 3.14f, age= 59.75f;
+    float num = 3.14f, age= 59.75f; // Have to specify f b/c Java assumes double
     double pi = 3.14159d;
     char unicode = 68;
     System.out.println(num + age + pi);

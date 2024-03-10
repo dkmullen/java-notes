@@ -1,4 +1,6 @@
+package classes;
 public class Main {
+  // Class 'attributes' or 'fields'
   int x = 5;
   String favColor = "blue";
   final double pi = 3.14159d;
